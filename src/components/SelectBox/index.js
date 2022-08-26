@@ -4,9 +4,8 @@ import Select from "react-select";
 import PropTypes from "prop-types";
 
 const selectOptions = [
-  { value: "option1", label: "Option1" },
-  { value: "option2", label: "Option2" },
-  { value: "option3", label: "Option3" },
+  { value: "created_at", label: "Created At" },
+  { value: "updated_at", label: "Updated At" },
 ];
 
 const variants = {
