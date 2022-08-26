@@ -45,7 +45,7 @@ List of Figma Files
 </ul>
 
 ## Screenshots
-![Dashboard](https://github.com/bhakti-tech02/figtion/blob/main/src/assets/images/Screenshot.png) 
+![Dashboard](https://github.com/bhakti-tech02/figtion/blob/main/src/assets/images/dashboard.png) 
 ![Comments](https://github.com/bhakti-tech02/figtion/blob/main/src/assets/images/comments.png) 
 ![Whatsapp](https://github.com/bhakti-tech02/figtion/blob/main/src/assets/images/linkToWhatsapp.png)
 ![Multiselect](https://github.com/bhakti-tech02/figtion/blob/main/src/assets/images/multiselect.png) 
