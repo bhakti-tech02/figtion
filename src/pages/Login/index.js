@@ -104,13 +104,7 @@ const LoginPage = () => {
             placeholder="Password"
             variant="OutlineGray401"
           ></Input>
-          <Text
-            className="font-inter font-normal lg:mt-[10px] xl:mt-[12px] 2xl:mt-[14px] 3xl:mt-[16px] not-italic lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-gray_600 w-[auto]"
-            compid="5109:9973"
-            comptype="Text"
-          >
-            Forgot Password ?
-          </Text>
+          
           <Button
             className="common-pointer font-inter font-normal lg:mt-[24px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-center w-[100%]"
             compid="5109:9974"
@@ -123,49 +117,13 @@ const LoginPage = () => {
           >
             Sign in
           </Button>
-          <Row
-            className="font-inter lg:mt-[26px] xl:mt-[30px] 2xl:mt-[34px] 3xl:mt-[40px] w-[83%]"
-            compid="5109:9977"
-            comptype="Row"
-          >
-            <Line
-              className="bg-gray_701 h-[0.5px] lg:mt-[5px] xl:mt-[6px] 2xl:mt-[7px] 3xl:mt-[8px] w-[45%]"
-              compid="5109:9979"
-              comptype="Line"
-            />
-            <Text
-              className="flex font-medium items-center lg:ml-[6px] xl:ml-[7px] 2xl:ml-[8px] 3xl:ml-[9px] lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-black_900 w-[auto]"
-              compid="5109:9978"
-              comptype="Text"
-            >
-              or
-            </Text>
-            <Line
-              className="bg-gray_701 h-[0.5px] lg:ml-[6px] xl:ml-[7px] 2xl:ml-[8px] 3xl:ml-[9px] lg:mt-[5px] xl:mt-[6px] 2xl:mt-[7px] 3xl:mt-[8px] w-[45%]"
-              compid="5109:9980"
-              comptype="Line"
-            />
-          </Row>
-          <Img
-            src="images/img_frame1.svg"
-            className="lg:h-[24px] xl:h-[27px] 2xl:h-[31px] 3xl:h-[37px] lg:mt-[24px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] w-[38%]"
-            compid="5114:9956"
-            comptype="Image"
-            alt="FrameOne"
-          />
-          <Text
-            className="font-normal font-outfit lg:mt-[28px] xl:mt-[32px] 2xl:mt-[37px] 3xl:mt-[44px] not-italic lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-black_900 w-[auto]"
-            compid="5109:9964"
-            comptype="Text"
-          >
-            <span className="text-black_900 font-inter">
-              Don’t have an account ?{" "}
-            </span>
-            <span className="text-blue_500 font-inter font-bold">
-              Register Now
-            </span>
-          </Text>
+         
+         
+        
         </Column>
+        <Text className="font-normal font-sourcesanspro lg:ml-[437px] xl:ml-[500px] ml-[563px] 3xl:ml-[675px] lg:mt-[245px] xl:mt-[281px] mt-[316px] 3xl:mt-[379px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900_b2 tracking-ls1 w-[auto]">
+            "Made with &hearts; using DhiWise"
+          </Text>
       </Column>
 
       <ToastContainer />
