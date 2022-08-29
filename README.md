@@ -74,11 +74,11 @@ $ cd figtion
   ```sh
 $ node server.js
 ```
-  2. Log into the application with username "Priscilla_Mohr@yahoo.com" and password "mGEGqKcEUOMnInZ" mentioned in the LogIn API from Services.
+  2. Log into the application with username "Priscilla_Mohr@yahoo.com" and password "mGEGqKcEUOMnInZ".
 
-  3. For accessing version and comments feature, add your Figma Access Token in Services.
+  3. For accessing version and comments feature, add your Figma Access Token in the API's headers in Services.
 
-  4. For accessing sharing feature across slack, generate your webhook url and define it in the constant.
+  4. For accessing sharing feature across slack, generate your webhook url and get started.
  
 # Version of Technologies
 
