@@ -79,6 +79,19 @@ $ node server.js
   3. For accessing version and comments feature, add your Figma Access Token in the API's headers in Services.
 
   4. For accessing sharing feature across slack, generate your webhook url and get started.
+
+# Running the storybook
+
+We have detected common components and have generated possible variants of it. To check the documentation of generated common components by integrating storybook, Please follow below steps.
+
+## Install and Initializes
+
+     npx storybook init
+
+## Run the Storybook
+
+      npm run storybook
+
  
 # Version of Technologies
 
