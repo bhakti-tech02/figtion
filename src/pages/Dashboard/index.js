@@ -147,7 +147,7 @@ const DashboardPage = () => {
     console.log("sot, ", sortedData);
     setData(sortedData);
   };
-  console.log(apiData);
+  
   return (
     <>
       <Column
@@ -440,7 +440,8 @@ const DashboardPage = () => {
           </List>
         </Column>
         <Text className="font-normal font-sourcesanspro lg:ml-[437px] xl:ml-[500px] ml-[563px] 3xl:ml-[675px] lg:mt-[245px] xl:mt-[281px] mt-[316px] 3xl:mt-[379px] not-italic lg:text-[10px] xl:text-[12px] text-[14px] 3xl:text-[16px] text-black_900_b2 tracking-ls1 w-[auto]">
-            "Made with &hearts; using DhiWise"
+            Made with ❤️ using Dhiwise
+
           </Text>
       </Column>
 
