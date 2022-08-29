@@ -70,8 +70,10 @@ $ cd figtion
 
 <h3><u>How to run Figtion?</u></h3>
 
-  1. First run server.js located in server folder which acts as the proxy server between Figtion and the Figma API.
-
+  1. First run server.js which acts as the proxy server between Figtion and the Figma API.
+  ```sh
+$ node server.js
+```
   2. Log into the application with username "Priscilla_Mohr@yahoo.com" and password "mGEGqKcEUOMnInZ" mentioned in the LogIn API from Services.
 
   3. For accessing version and comments feature, add your Figma Access Token in Services.
