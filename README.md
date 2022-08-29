@@ -80,7 +80,7 @@ $ node server.js
 
   4. For accessing sharing feature across slack, generate your webhook url and get started.
 
-# Running the storybook
+## Running the storybook
 
 We have detected common components and have generated possible variants of it. To check the documentation of generated common components by integrating storybook, Please follow below steps.
 
