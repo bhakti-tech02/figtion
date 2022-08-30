@@ -44,10 +44,8 @@ const DashboardPage = () => {
         accept: "application/json",
         "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
         "content-type": "application/json",
-        cookie:
-          "figma.session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVG86HVJhY2s6OlNlc3Npb246OlNlc3Npb25JZAY6D0BwdWJsaWNfaWRJIkU3MDZkMjQ0MDgxYzI1NDA5ZjhhM2I2MjhkMDQ1MmJjZDBhODY3NTZkZDgzNzQ5YzhmMWJlYTBiNTE2YmYxOTQzBjsARkkiCmZsYXNoBjsARnsA--33baa4eb2fe5ae66ebd581e94a10fa7664d68899; figma.mst=1; local_experiments=%22e30=%22; _gcl_au=1.1.2065600740.1658122667; _fbp=fb.1.1658122667265.461234822; cb_user_id=null; cb_group_id=null; cb_anonymous_id=%22d4d3764a-342b-4ce9-8c09-fb6db1651ec2%22; ajs_user_id=%221127461673325067198%22; ajs_anonymous_id=%2238c1657a-07f0-4db3-b295-754ed51fc3bb%22; _tt_enable_cookie=1; _ttp=243ed7e5-afaa-4472-a4f5-e7840f19f5c6; recent_user_data=%22eyJjb21tdW5pdHlVc2VySWQiOm51bGwsImNvbW11bml0eVByb2ZpbGVJZCI6IjExMjc0NjE2NzM0NDUwMTQwOTAiLCJmaWxlQnJvd3NlclVzZXJJZCI6IjExMjc0NjE2NzMzMjUwNjcxOTgiLCJ1c2VySWRUb09yZ0lkIjp7IjExMjc0NjE2NzMzMjUwNjcxOTgiOm51bGx9fQ==%22; __Host-figma.authn=%7B%221127461673325067198%22%3A%22figtkn.authn.YLESgf7701ivaD4buC4rOa%22%7D; __Host-figma.embed=%7B%221127461673325067198%22%3A%22figtkn.embed.7ABOonnppzR39J8hALfUPp%22%7D; figma.ref=eyJ1cmwiOiJodHRwczovL2FwcC5kaGl3aXNlLmNvbS8ifQ%3D%3D; AWSALBTG=zjnpLqyH3/IUdL9KxatlLKEGUwT5M6EMqqA8wXNf6N4wFLUYJrKjOgCwNqOc+6qT/gLJ9VOkJ+Dg2Bnfu2/SvTf12ttaO4gtIzH+IiaJzQMoFA3GJvEgP4CSZZHoiVM+a2W8obDs06mr8LtJsF1wsFdl5usxbiirHBVIodq59/O0; AWSALBTGCORS=zjnpLqyH3/IUdL9KxatlLKEGUwT5M6EMqqA8wXNf6N4wFLUYJrKjOgCwNqOc+6qT/gLJ9VOkJ+Dg2Bnfu2/SvTf12ttaO4gtIzH+IiaJzQMoFA3GJvEgP4CSZZHoiVM+a2W8obDs06mr8LtJsF1wsFdl5usxbiirHBVIodq59/O0; AWSALB=38KfLu7BBJme12M1z+KfHkEqPzQgb+p8RVOJSAZpSvj/0Dk/lI1t06bNw6VjgpCnYeuaFx+VNcOdEyz4ac16W/HdZcdpn9goh3qhTcum20IxEZ+ezwA6+U255/jc; AWSALBCORS=38KfLu7BBJme12M1z+KfHkEqPzQgb+p8RVOJSAZpSvj/0Dk/lI1t06bNw6VjgpCnYeuaFx+VNcOdEyz4ac16W/HdZcdpn9goh3qhTcum20IxEZ+ezwA6+U255/jc; __Host-figma.authn=%7B%221127461673325067198%22%3A%22figtkn.authn.J46z2K87a9VqLSvkL0DXpS%22%7D; __Host-figma.embed=%7B%221127461673325067198%22%3A%22figtkn.embed.BoHMtox5OE9nu9PSTbwRoF%22%7D; figma.ref=eyJ1cmwiOiJodHRwczovL2FwcC5kaGl3aXNlLmNvbS8ifQ%3D%3D; figma.session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVG86HVJhY2s6OlNlc3Npb246OlNlc3Npb25JZAY6D0BwdWJsaWNfaWRJIkU3MDZkMjQ0MDgxYzI1NDA5ZjhhM2I2MjhkMDQ1MmJjZDBhODY3NTZkZDgzNzQ5YzhmMWJlYTBiNTE2YmYxOTQzBjsARkkiCmZsYXNoBjsARnsA--33baa4eb2fe5ae66ebd581e94a10fa7664d68899",
+        cookie:"your cookie"
  
-        referer: `https://www.figma.com/files/recent?fuid=1127461673325067198`,
         "sec-ch-ua":
           '".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"',
         "sec-ch-ua-mobile": "?0",
@@ -59,7 +57,6 @@ const DashboardPage = () => {
         "user-agent":
           "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
         "x-csrf-bypass": "yes",
-        "x-figma-user-id": "1127461673325067198",
       },
     });
 
@@ -136,7 +133,7 @@ const DashboardPage = () => {
                
          
    
-    axios.post(`https://hooks.slack.com/services/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`,{
+    axios.post(`<your slack webhook url>`,{
       text: `${varto}`
     })
   }
