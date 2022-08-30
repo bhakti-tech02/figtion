@@ -28,13 +28,13 @@ export const getVersions = ({
 } = {}) =>
   apis.get(`https://api.figma.com/v1/files/${id}/versions`, {
     headers: {
-      "X-FIGMA-TOKEN": "figd_ECyquEX0yipMUnHHFiY-XxHzV8Vkha3t8FgCfgVF",
+      "X-FIGMA-TOKEN": "<token>",
     },
   });
 
 export const getComments = (payload) =>
   apis.get(`https://api.figma.com/v1/files/${payload?.id}/comments`, {
     headers: {
-      "X-FIGMA-TOKEN": "figd_ECyquEX0yipMUnHHFiY-XxHzV8Vkha3t8FgCfgVF",
+      "X-FIGMA-TOKEN": "<token>",
     },
   });
